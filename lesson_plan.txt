@@ -37,4 +37,8 @@ If you want more customization, you can add the less gem.
 Full instructions here:
 https://github.com/seyhunak/twitter-bootstrap-rails
 
-Lab: (45 min.) Take the MoMa rails app and give it some basic styling using the Twitter bootstrap gem. Your app should have a fixed navbar that is the same for all your pages. There should be a "home" link. 
+Lab: (45 min.) 
+Give the MoMa rails app some basic styling.
+Your app should have a fixed navbar that is the
+same for all your pages. There should be a "home"
+link. 

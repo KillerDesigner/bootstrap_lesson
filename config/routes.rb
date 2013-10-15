@@ -1,8 +1,9 @@
 MoMaApp::Application.routes.draw do
   resources :paintings
 
-
   resources :artists
+
+  root to: "artists#index"
 
 
   # The priority is based upon order of creation:
