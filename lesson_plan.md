@@ -1,0 +1,26 @@
+Twitter Bootstrap Lab - 1 hour
+
+Objective: Students will be able to add styling to a Rails app using Twitter Bootstrap using the Twitter Bootstrap Gem.
+
+Why: Using Twitter Bootstrap allows you to focus more on getting the logic portion of a project down as many of the features you would need for the design and layout is built in. As an added bonus your app will be very flexible and look good on different browsers as well as most mobile devices!
+
+10 mins lecture: Bootstrap was originally created by a bunch of engineers within Twitter to as a way to solve problems that they were encountering often with one simple body of CSS code. It's a great way to get your app up and styled quickly, which is especially great if you are prototyping (or if you are not a huge fan of CSS).
+
+How to use if you don't want lots of customization: 
+1. in your gem file put 'gem "twitter-bootstrap-rails"'
+2. run bundler with 'bundle install'
+3. run generator with 'rails generate bootstrap:install static'
+4. add tags that are specific to Twitter bootstrap into your <div> tags in your .erb files. For example, to make a nav bar:
+
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="container">
+    </div>
+  </div>
+</div>
+
+If you want more customization, you can add the less gem.
+Full instructions here:
+https://github.com/seyhunak/twitter-bootstrap-rails
+
+Lab: (45 min.) Take the MoMa rails app and give it some basic styling using the Twitter bootstrap gem. Your app should have a fixed navbar that is the same for all your pages. There should be a "home" link. 
